@@ -10,6 +10,16 @@ public class  Schule
   private boolean praktikum;
   private String  schulleiter;
   private boolean hof;
+  private int     alter;
+  public Schule(boolean newPraktikum)
+  {
+      setPraktikum(newPraktikum);
+  }
+  public void setPraktikum(boolean newPraktikum)
+  {
+      praktikum = newPraktikum;
+  }
+  
 
 
 }
